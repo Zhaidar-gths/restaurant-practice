@@ -96,6 +96,103 @@ header p {
     width: 100%;
 }
 
+.special{
+    text-align: center;
+    font-family: sans-serif;
+  }
+  
+  .special h4{
+    color: orange;
+  }
+  
+  .bluda{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; 
+    
+  }
+  
+  .bluda h5{
+    color:gray;
+  } 
+  
+  .beshbarmak{
+    border-radius: 5px;
+    padding: 50px;
+    background-color: white;
+    width: 120px;
+    height: 210px;
+    border-style: outset;
+  }
+  
+  .manty{
+    border-radius: 5px;
+    padding: 50px;
+    background-color: white;
+    width: 120px;
+    height: 210px;
+    border-style: outset;
+  }
+  
+  .plov{
+    border-radius: 5px;
+    padding: 50px;
+    background-color: white;
+    width: 120px;
+    height: 210px;
+    border-style: outset;
+    display: block;
+  }
+  
+  .talk{
+    text-align: left;
+    padding: 150px;
+  }
+  
+  .talk h3{
+    color: orange;
+    font-family: sans-serif;
+  }
+  
+  .talk h1{
+    font-family: sans-serif;
+  }
+  
+  .btn2{
+    background-color: sienna;
+    width: 300px;
+    color:white;
+    height: 50px;
+    margin-top: 20px;
+  }
+  #good-food{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 160%;
+    color: peru;
+ }
+
+#serv{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+#information{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+
+}
+#adress{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+#Amjilt{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    text-align: center;
+    color: darkgray;
+}
+
+
 @media only screen and (min-width: 1024px) and (max-width: 1500px) {
     body {
         width: 70%;
@@ -122,9 +219,78 @@ header p {
         font-size: 25px;
     }
 
+    .offer-card>img{
+    width: 140px;
+    height: 150px;
+    display: block;
+    margin: auto;
+    }
 
-
-
+    .special{
+        text-align: center;
+        font-family: sans-serif;
+      }
+      
+      .special h5{
+        color: orange;
+      }
+      
+      .bluda{
+        font-family: sans-serif;
+        display: flex;
+        justify-content: space-between;
+        padding: 50px;
+      }
+      
+      .bluda h5{
+        color:gray;
+      }
+      
+      .beshbarmak{
+        border-radius: 5px;
+        padding: 20px;
+        background-color: white;
+        width: 120px;
+        height: 210px;
+      }
+      
+      .manty{
+        border-radius: 5px;
+        padding: 20px;
+        background-color: white;
+        width: 120px;
+        height: 210px;
+      }
+      
+      .plov{
+        border-radius: 5px;
+        padding: 20px;
+        background-color: white;
+        width: 120px;
+        height: 210px;
+      }
+      
+      .talk{
+        text-align: left;
+        padding: 150px;
+      }
+      
+      .talk h3{
+        color: orange;
+        font-family: sans-serif;
+      }
+      
+      .talk h1{
+        font-family: sans-serif;
+      }
+      
+      .btn2{
+        background-color: sienna;
+        width: 300px;
+        color:white;
+        height: 50px;
+        margin-top: 20px;
+      }
 
 
 }
